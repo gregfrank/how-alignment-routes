@@ -1,0 +1,115 @@
+{
+  "model_id": "Qwen/Qwen2.5-72B-Instruct",
+  "corpus": "safety_v3",
+  "seed": 42,
+  "position": "last_prompt",
+  "target": "logit_diff",
+  "n_heads": 64,
+  "head_dim": 128,
+  "n_layers": 80,
+  "run_dir": "/workspace/results/qwen25_72b/headDLA",
+  "n_pairs": 120,
+  "top_20_routing_heads": [
+    {
+      "layer": 50,
+      "head": 41,
+      "abs_delta": 0.058
+    },
+    {
+      "layer": 50,
+      "head": 47,
+      "abs_delta": 0.058
+    },
+    {
+      "layer": 46,
+      "head": 1,
+      "abs_delta": 0.0368
+    },
+    {
+      "layer": 50,
+      "head": 42,
+      "abs_delta": 0.0336
+    },
+    {
+      "layer": 33,
+      "head": 37,
+      "abs_delta": 0.0306
+    },
+    {
+      "layer": 50,
+      "head": 53,
+      "abs_delta": 0.0247
+    },
+    {
+      "layer": 48,
+      "head": 46,
+      "abs_delta": 0.0231
+    },
+    {
+      "layer": 50,
+      "head": 15,
+      "abs_delta": 0.0223
+    },
+    {
+      "layer": 52,
+      "head": 14,
+      "abs_delta": 0.0197
+    },
+    {
+      "layer": 37,
+      "head": 28,
+      "abs_delta": 0.0192
+    },
+    {
+      "layer": 46,
+      "head": 4,
+      "abs_delta": 0.0184
+    },
+    {
+      "layer": 48,
+      "head": 20,
+      "abs_delta": 0.0183
+    },
+    {
+      "layer": 52,
+      "head": 11,
+      "abs_delta": 0.0174
+    },
+    {
+      "layer": 48,
+      "head": 51,
+      "abs_delta": 0.0165
+    },
+    {
+      "layer": 36,
+      "head": 61,
+      "abs_delta": 0.0162
+    },
+    {
+      "layer": 43,
+      "head": 11,
+      "abs_delta": 0.0157
+    },
+    {
+      "layer": 52,
+      "head": 13,
+      "abs_delta": 0.015
+    },
+    {
+      "layer": 50,
+      "head": 40,
+      "abs_delta": 0.0148
+    },
+    {
+      "layer": 45,
+      "head": 26,
+      "abs_delta": 0.0144
+    },
+    {
+      "layer": 50,
+      "head": 54,
+      "abs_delta": 0.0143
+    }
+  ],
+  "ablation": null
+}

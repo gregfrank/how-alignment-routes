@@ -1,0 +1,14 @@
+{
+  "model": "google/gemma-2-2b-it",
+  "corpus": "safety",
+  "checkpoint": "/workspace/gemma_direction.pt",
+  "n_harmful": 120,
+  "n_benign": 120,
+  "peak_detection_layer": 14,
+  "plain_harmful_at_peak": 97.64,
+  "cipher_harmful_at_peak": 28.85,
+  "benign_at_peak": 10.83,
+  "cipher_below_benign": false,
+  "bypass_magnitude": 0,
+  "timestamp": "2026-04-05T17:52:17"
+}

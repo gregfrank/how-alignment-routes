@@ -1,0 +1,35 @@
+{
+  "experiment": "knockout_cascade_n120",
+  "model": "microsoft/Phi-4-mini-instruct",
+  "corpus": "safety_v3",
+  "n_pairs": 120,
+  "gate_head": {
+    "layer": 13,
+    "head": 7
+  },
+  "amplifier_heads": [
+    {
+      "layer": 16,
+      "head": 13
+    },
+    {
+      "layer": 27,
+      "head": 19
+    },
+    {
+      "layer": 29,
+      "head": 18
+    },
+    {
+      "layer": 26,
+      "head": 11
+    },
+    {
+      "layer": 26,
+      "head": 9
+    }
+  ],
+  "method": "zero_head_o_proj_pre_hook",
+  "dla_target": "logit_diff",
+  "timestamp": "2026-04-04T20:00:44"
+}

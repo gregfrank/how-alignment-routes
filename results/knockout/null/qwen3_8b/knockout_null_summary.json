@@ -1,0 +1,10 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "gate": "L17.H17",
+  "gate_effect": 10.51,
+  "null_mean": 3.91,
+  "null_std": 2.09,
+  "null_max": 7.66,
+  "n_null_heads": 10,
+  "limit_pairs": 20
+}

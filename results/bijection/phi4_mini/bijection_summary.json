@@ -1,0 +1,14 @@
+{
+  "model": "microsoft/Phi-4-mini-instruct",
+  "corpus": "safety",
+  "checkpoint": "/workspace/phi4_direction.pt",
+  "n_harmful": 120,
+  "n_benign": 120,
+  "peak_detection_layer": 16,
+  "plain_harmful_at_peak": 37.09,
+  "cipher_harmful_at_peak": 4.31,
+  "benign_at_peak": 1.59,
+  "cipher_below_benign": false,
+  "bypass_magnitude": 0,
+  "timestamp": "2026-04-05T00:59:44"
+}

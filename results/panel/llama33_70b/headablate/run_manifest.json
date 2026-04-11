@@ -1,0 +1,53 @@
+{
+  "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+  "corpus": "safety_v3",
+  "mode": "ablate",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 78,
+      "head": 32
+    },
+    {
+      "layer": 50,
+      "head": 36
+    },
+    {
+      "layer": 75,
+      "head": 37
+    },
+    {
+      "layer": 79,
+      "head": 32
+    },
+    {
+      "layer": 71,
+      "head": 13
+    },
+    {
+      "layer": 77,
+      "head": 47
+    },
+    {
+      "layer": 52,
+      "head": 53
+    },
+    {
+      "layer": 73,
+      "head": 34
+    },
+    {
+      "layer": 56,
+      "head": 34
+    },
+    {
+      "layer": 58,
+      "head": 3
+    }
+  ],
+  "direction_checkpoint": "/workspace/results/llama33_70b/direction.pt",
+  "direction_layer": null,
+  "alpha": 5.0,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/llama33_70b/headablate"
+}

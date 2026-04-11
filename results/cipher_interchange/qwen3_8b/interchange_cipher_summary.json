@@ -1,0 +1,30 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "gate": "L17.H17",
+  "corpus": "v2",
+  "n_pairs": 120,
+  "checkpoint": "runs/qwen3_8b_ablation/checkpoint.pt",
+  "plaintext": {
+    "mean_necessity": 0.007847084885846319,
+    "std_necessity": 2.6673289638848936,
+    "mean_sufficiency": 2.762990741494165,
+    "std_sufficiency": 3.282870260364296,
+    "mean_baseline_harm_dla": 120.04048875427688,
+    "necessity_pct": 0.00653703176926355,
+    "sufficiency_pct": 2.301715671243236
+  },
+  "cipher": {
+    "mean_necessity": -0.6077884682261356,
+    "std_necessity": 0.18920730446878475,
+    "mean_sufficiency": 1.4003274809749806,
+    "std_sufficiency": 2.3501538710897796,
+    "mean_baseline_harm_dla": 35.42832393323988,
+    "necessity_pct": -1.715543951137612,
+    "sufficiency_pct": 3.9525648563384417
+  },
+  "collapse": {
+    "necessity_drop_pct": 7845.404530061801,
+    "sufficiency_drop_pct": 49.31841573172575
+  },
+  "timestamp": "23:13:13"
+}

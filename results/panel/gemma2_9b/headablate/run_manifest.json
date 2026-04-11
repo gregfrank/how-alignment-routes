@@ -1,0 +1,93 @@
+{
+  "model_id": "google/gemma-2-9b-it",
+  "corpus": "safety_v3",
+  "mode": "ablate",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 38,
+      "head": 1
+    },
+    {
+      "layer": 38,
+      "head": 14
+    },
+    {
+      "layer": 31,
+      "head": 1
+    },
+    {
+      "layer": 37,
+      "head": 4
+    },
+    {
+      "layer": 38,
+      "head": 15
+    },
+    {
+      "layer": 34,
+      "head": 11
+    },
+    {
+      "layer": 26,
+      "head": 8
+    },
+    {
+      "layer": 39,
+      "head": 11
+    },
+    {
+      "layer": 30,
+      "head": 6
+    },
+    {
+      "layer": 22,
+      "head": 8
+    },
+    {
+      "layer": 24,
+      "head": 7
+    },
+    {
+      "layer": 39,
+      "head": 0
+    },
+    {
+      "layer": 36,
+      "head": 0
+    },
+    {
+      "layer": 32,
+      "head": 13
+    },
+    {
+      "layer": 12,
+      "head": 2
+    },
+    {
+      "layer": 38,
+      "head": 4
+    },
+    {
+      "layer": 23,
+      "head": 5
+    },
+    {
+      "layer": 29,
+      "head": 1
+    },
+    {
+      "layer": 24,
+      "head": 4
+    },
+    {
+      "layer": 33,
+      "head": 4
+    }
+  ],
+  "direction_checkpoint": "/workspace/results/m87_gemma2_9b/direction.pt",
+  "direction_layer": null,
+  "alpha": 5.0,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/m87_gemma2_9b/headablate"
+}

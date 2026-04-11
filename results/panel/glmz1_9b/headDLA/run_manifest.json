@@ -1,0 +1,115 @@
+{
+  "model_id": "THUDM/glm-z1-9b-0414",
+  "corpus": "safety_v3",
+  "seed": 42,
+  "position": "last_prompt",
+  "target": "logit_diff",
+  "n_heads": 32,
+  "head_dim": 128,
+  "n_layers": 40,
+  "run_dir": "/workspace/results/m85_glmz1_9b/headDLA",
+  "n_pairs": 120,
+  "top_20_routing_heads": [
+    {
+      "layer": 19,
+      "head": 28,
+      "abs_delta": 0.1701
+    },
+    {
+      "layer": 19,
+      "head": 18,
+      "abs_delta": 0.0889
+    },
+    {
+      "layer": 18,
+      "head": 4,
+      "abs_delta": 0.0772
+    },
+    {
+      "layer": 19,
+      "head": 23,
+      "abs_delta": 0.0724
+    },
+    {
+      "layer": 26,
+      "head": 11,
+      "abs_delta": 0.0704
+    },
+    {
+      "layer": 22,
+      "head": 31,
+      "abs_delta": 0.0674
+    },
+    {
+      "layer": 20,
+      "head": 16,
+      "abs_delta": 0.0665
+    },
+    {
+      "layer": 22,
+      "head": 5,
+      "abs_delta": 0.064
+    },
+    {
+      "layer": 21,
+      "head": 8,
+      "abs_delta": 0.0629
+    },
+    {
+      "layer": 18,
+      "head": 2,
+      "abs_delta": 0.0604
+    },
+    {
+      "layer": 20,
+      "head": 24,
+      "abs_delta": 0.0556
+    },
+    {
+      "layer": 22,
+      "head": 12,
+      "abs_delta": 0.0498
+    },
+    {
+      "layer": 16,
+      "head": 23,
+      "abs_delta": 0.046
+    },
+    {
+      "layer": 20,
+      "head": 22,
+      "abs_delta": 0.0452
+    },
+    {
+      "layer": 17,
+      "head": 7,
+      "abs_delta": 0.0435
+    },
+    {
+      "layer": 22,
+      "head": 7,
+      "abs_delta": 0.0432
+    },
+    {
+      "layer": 22,
+      "head": 9,
+      "abs_delta": 0.0422
+    },
+    {
+      "layer": 18,
+      "head": 3,
+      "abs_delta": 0.0403
+    },
+    {
+      "layer": 18,
+      "head": 12,
+      "abs_delta": 0.0398
+    },
+    {
+      "layer": 17,
+      "head": 3,
+      "abs_delta": 0.0389
+    }
+  ],
+  "ablation": null
+}

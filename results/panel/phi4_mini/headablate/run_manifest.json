@@ -1,0 +1,93 @@
+{
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "corpus": "safety_v3",
+  "mode": "ablate",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 30,
+      "head": 20
+    },
+    {
+      "layer": 26,
+      "head": 11
+    },
+    {
+      "layer": 27,
+      "head": 20
+    },
+    {
+      "layer": 28,
+      "head": 20
+    },
+    {
+      "layer": 29,
+      "head": 18
+    },
+    {
+      "layer": 27,
+      "head": 19
+    },
+    {
+      "layer": 22,
+      "head": 18
+    },
+    {
+      "layer": 22,
+      "head": 20
+    },
+    {
+      "layer": 16,
+      "head": 13
+    },
+    {
+      "layer": 16,
+      "head": 12
+    },
+    {
+      "layer": 13,
+      "head": 7
+    },
+    {
+      "layer": 26,
+      "head": 12
+    },
+    {
+      "layer": 28,
+      "head": 17
+    },
+    {
+      "layer": 26,
+      "head": 9
+    },
+    {
+      "layer": 30,
+      "head": 11
+    },
+    {
+      "layer": 28,
+      "head": 19
+    },
+    {
+      "layer": 29,
+      "head": 20
+    },
+    {
+      "layer": 29,
+      "head": 0
+    },
+    {
+      "layer": 21,
+      "head": 15
+    },
+    {
+      "layer": 25,
+      "head": 6
+    }
+  ],
+  "direction_checkpoint": "/workspace/results/m85_phi4_mini/direction.pt",
+  "direction_layer": null,
+  "alpha": 5.0,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/m85_phi4_mini/headablate"
+}

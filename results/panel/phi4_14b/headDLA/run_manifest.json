@@ -1,0 +1,115 @@
+{
+  "model_id": "microsoft/phi-4",
+  "corpus": "safety_v3",
+  "seed": 42,
+  "position": "last_prompt",
+  "target": "logit_diff",
+  "n_heads": 40,
+  "head_dim": 128,
+  "n_layers": 40,
+  "run_dir": "/workspace/results/m86_phi4_14b/headDLA",
+  "n_pairs": 120,
+  "top_20_routing_heads": [
+    {
+      "layer": 24,
+      "head": 15,
+      "abs_delta": 0.5923
+    },
+    {
+      "layer": 26,
+      "head": 26,
+      "abs_delta": 0.4148
+    },
+    {
+      "layer": 25,
+      "head": 30,
+      "abs_delta": 0.4034
+    },
+    {
+      "layer": 23,
+      "head": 3,
+      "abs_delta": 0.3384
+    },
+    {
+      "layer": 25,
+      "head": 14,
+      "abs_delta": 0.2755
+    },
+    {
+      "layer": 24,
+      "head": 14,
+      "abs_delta": 0.2599
+    },
+    {
+      "layer": 25,
+      "head": 39,
+      "abs_delta": 0.2542
+    },
+    {
+      "layer": 21,
+      "head": 33,
+      "abs_delta": 0.2431
+    },
+    {
+      "layer": 22,
+      "head": 14,
+      "abs_delta": 0.2395
+    },
+    {
+      "layer": 25,
+      "head": 37,
+      "abs_delta": 0.2338
+    },
+    {
+      "layer": 20,
+      "head": 19,
+      "abs_delta": 0.2331
+    },
+    {
+      "layer": 25,
+      "head": 20,
+      "abs_delta": 0.2258
+    },
+    {
+      "layer": 21,
+      "head": 2,
+      "abs_delta": 0.2222
+    },
+    {
+      "layer": 21,
+      "head": 34,
+      "abs_delta": 0.2212
+    },
+    {
+      "layer": 20,
+      "head": 16,
+      "abs_delta": 0.2096
+    },
+    {
+      "layer": 26,
+      "head": 30,
+      "abs_delta": 0.2061
+    },
+    {
+      "layer": 25,
+      "head": 27,
+      "abs_delta": 0.2032
+    },
+    {
+      "layer": 22,
+      "head": 35,
+      "abs_delta": 0.1994
+    },
+    {
+      "layer": 24,
+      "head": 13,
+      "abs_delta": 0.1922
+    },
+    {
+      "layer": 26,
+      "head": 18,
+      "abs_delta": 0.1727
+    }
+  ],
+  "ablation": null
+}

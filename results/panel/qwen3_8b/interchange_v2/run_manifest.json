@@ -1,0 +1,53 @@
+{
+  "model_id": "Qwen/Qwen3-8B",
+  "corpus": "v2",
+  "mode": "interchange",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 22,
+      "head": 7
+    },
+    {
+      "layer": 23,
+      "head": 2
+    },
+    {
+      "layer": 22,
+      "head": 4
+    },
+    {
+      "layer": 22,
+      "head": 5
+    },
+    {
+      "layer": 22,
+      "head": 6
+    },
+    {
+      "layer": 17,
+      "head": 17
+    },
+    {
+      "layer": 20,
+      "head": 14
+    },
+    {
+      "layer": 23,
+      "head": 30
+    },
+    {
+      "layer": 20,
+      "head": 10
+    },
+    {
+      "layer": 23,
+      "head": 3
+    }
+  ],
+  "direction_checkpoint": "runs/qwen3_8b_ablation/checkpoint.pt",
+  "direction_layer": null,
+  "alpha": null,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/m83_deep_remediation/qwen_interchange_v2"
+}

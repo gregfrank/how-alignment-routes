@@ -1,0 +1,53 @@
+{
+  "model_id": "THUDM/glm-z1-9b-0414",
+  "corpus": "safety_v3",
+  "mode": "interchange",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 19,
+      "head": 23
+    },
+    {
+      "layer": 19,
+      "head": 18
+    },
+    {
+      "layer": 18,
+      "head": 4
+    },
+    {
+      "layer": 19,
+      "head": 28
+    },
+    {
+      "layer": 17,
+      "head": 7
+    },
+    {
+      "layer": 18,
+      "head": 2
+    },
+    {
+      "layer": 22,
+      "head": 31
+    },
+    {
+      "layer": 21,
+      "head": 8
+    },
+    {
+      "layer": 37,
+      "head": 26
+    },
+    {
+      "layer": 34,
+      "head": 26
+    }
+  ],
+  "direction_checkpoint": "/workspace/results/m85_glmz1_9b/direction.pt",
+  "direction_layer": null,
+  "alpha": null,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/m85_glmz1_9b/interchange"
+}

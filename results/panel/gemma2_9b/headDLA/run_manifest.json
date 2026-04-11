@@ -1,0 +1,115 @@
+{
+  "model_id": "google/gemma-2-9b-it",
+  "corpus": "safety_v3",
+  "seed": 42,
+  "position": "last_prompt",
+  "target": "logit_diff",
+  "n_heads": 16,
+  "head_dim": 256,
+  "n_layers": 42,
+  "run_dir": "/workspace/results/m87_gemma2_9b/headDLA",
+  "n_pairs": 120,
+  "top_20_routing_heads": [
+    {
+      "layer": 26,
+      "head": 8,
+      "abs_delta": 0.3465
+    },
+    {
+      "layer": 22,
+      "head": 8,
+      "abs_delta": 0.2732
+    },
+    {
+      "layer": 24,
+      "head": 7,
+      "abs_delta": 0.25
+    },
+    {
+      "layer": 12,
+      "head": 2,
+      "abs_delta": 0.1992
+    },
+    {
+      "layer": 23,
+      "head": 5,
+      "abs_delta": 0.1896
+    },
+    {
+      "layer": 24,
+      "head": 4,
+      "abs_delta": 0.1873
+    },
+    {
+      "layer": 21,
+      "head": 14,
+      "abs_delta": 0.1689
+    },
+    {
+      "layer": 10,
+      "head": 3,
+      "abs_delta": 0.1534
+    },
+    {
+      "layer": 22,
+      "head": 3,
+      "abs_delta": 0.1393
+    },
+    {
+      "layer": 24,
+      "head": 2,
+      "abs_delta": 0.1296
+    },
+    {
+      "layer": 22,
+      "head": 10,
+      "abs_delta": 0.1278
+    },
+    {
+      "layer": 27,
+      "head": 6,
+      "abs_delta": 0.1221
+    },
+    {
+      "layer": 24,
+      "head": 5,
+      "abs_delta": 0.1212
+    },
+    {
+      "layer": 19,
+      "head": 3,
+      "abs_delta": 0.1196
+    },
+    {
+      "layer": 18,
+      "head": 14,
+      "abs_delta": 0.1195
+    },
+    {
+      "layer": 19,
+      "head": 1,
+      "abs_delta": 0.1164
+    },
+    {
+      "layer": 19,
+      "head": 12,
+      "abs_delta": 0.1055
+    },
+    {
+      "layer": 27,
+      "head": 0,
+      "abs_delta": 0.1044
+    },
+    {
+      "layer": 20,
+      "head": 6,
+      "abs_delta": 0.1011
+    },
+    {
+      "layer": 25,
+      "head": 9,
+      "abs_delta": 0.0975
+    }
+  ],
+  "ablation": null
+}

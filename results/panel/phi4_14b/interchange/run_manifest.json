@@ -1,0 +1,53 @@
+{
+  "model_id": "microsoft/phi-4",
+  "corpus": "safety_v3",
+  "mode": "interchange",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 24,
+      "head": 15
+    },
+    {
+      "layer": 30,
+      "head": 1
+    },
+    {
+      "layer": 32,
+      "head": 3
+    },
+    {
+      "layer": 34,
+      "head": 33
+    },
+    {
+      "layer": 36,
+      "head": 33
+    },
+    {
+      "layer": 33,
+      "head": 32
+    },
+    {
+      "layer": 37,
+      "head": 5
+    },
+    {
+      "layer": 38,
+      "head": 20
+    },
+    {
+      "layer": 38,
+      "head": 25
+    },
+    {
+      "layer": 29,
+      "head": 22
+    }
+  ],
+  "direction_checkpoint": "/workspace/results/m86_phi4_14b/direction.pt",
+  "direction_layer": null,
+  "alpha": null,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/m86_phi4_14b/interchange"
+}

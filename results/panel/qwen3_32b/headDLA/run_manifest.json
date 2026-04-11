@@ -1,0 +1,115 @@
+{
+  "model_id": "Qwen/Qwen3-32B",
+  "corpus": "v2",
+  "seed": 42,
+  "position": "last_prompt",
+  "target": "logit_diff",
+  "n_heads": 64,
+  "head_dim": 128,
+  "n_layers": 64,
+  "run_dir": "/workspace/results/m84_qwen3_32b/headDLA",
+  "n_pairs": 120,
+  "top_20_routing_heads": [
+    {
+      "layer": 25,
+      "head": 4,
+      "abs_delta": 0.0881
+    },
+    {
+      "layer": 39,
+      "head": 7,
+      "abs_delta": 0.0654
+    },
+    {
+      "layer": 38,
+      "head": 55,
+      "abs_delta": 0.0384
+    },
+    {
+      "layer": 27,
+      "head": 38,
+      "abs_delta": 0.0377
+    },
+    {
+      "layer": 37,
+      "head": 37,
+      "abs_delta": 0.0343
+    },
+    {
+      "layer": 38,
+      "head": 10,
+      "abs_delta": 0.0319
+    },
+    {
+      "layer": 27,
+      "head": 34,
+      "abs_delta": 0.0314
+    },
+    {
+      "layer": 37,
+      "head": 14,
+      "abs_delta": 0.0297
+    },
+    {
+      "layer": 29,
+      "head": 36,
+      "abs_delta": 0.0292
+    },
+    {
+      "layer": 37,
+      "head": 31,
+      "abs_delta": 0.0288
+    },
+    {
+      "layer": 24,
+      "head": 14,
+      "abs_delta": 0.0275
+    },
+    {
+      "layer": 41,
+      "head": 43,
+      "abs_delta": 0.0262
+    },
+    {
+      "layer": 25,
+      "head": 5,
+      "abs_delta": 0.0262
+    },
+    {
+      "layer": 34,
+      "head": 61,
+      "abs_delta": 0.0254
+    },
+    {
+      "layer": 34,
+      "head": 54,
+      "abs_delta": 0.0234
+    },
+    {
+      "layer": 41,
+      "head": 53,
+      "abs_delta": 0.0233
+    },
+    {
+      "layer": 34,
+      "head": 15,
+      "abs_delta": 0.0231
+    },
+    {
+      "layer": 25,
+      "head": 3,
+      "abs_delta": 0.0228
+    },
+    {
+      "layer": 39,
+      "head": 3,
+      "abs_delta": 0.022
+    },
+    {
+      "layer": 36,
+      "head": 60,
+      "abs_delta": 0.0208
+    }
+  ],
+  "ablation": null
+}

@@ -1,0 +1,49 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "corpus": "v2",
+  "n_pairs": 120,
+  "total_heads": 1152,
+  "top_10": [
+    {
+      "head": "L31.H3",
+      "sensitivity": 2.570306149373452
+    },
+    {
+      "head": "L34.H15",
+      "sensitivity": 2.4846394707759223
+    },
+    {
+      "head": "L35.H5",
+      "sensitivity": 1.6706586820383869
+    },
+    {
+      "head": "L35.H2",
+      "sensitivity": 1.4959848072379829
+    },
+    {
+      "head": "L22.H7",
+      "sensitivity": 1.2046539647194245
+    },
+    {
+      "head": "L30.H17",
+      "sensitivity": 1.1260679247478644
+    },
+    {
+      "head": "L22.H6",
+      "sensitivity": 1.1171744984885057
+    },
+    {
+      "head": "L27.H14",
+      "sensitivity": 1.0382972488800686
+    },
+    {
+      "head": "L27.H29",
+      "sensitivity": 0.9628891768554847
+    },
+    {
+      "head": "L34.H28",
+      "sensitivity": 0.8792415625105302
+    }
+  ],
+  "timestamp": "00:59:45"
+}

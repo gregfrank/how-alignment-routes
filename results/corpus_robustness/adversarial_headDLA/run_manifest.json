@@ -1,0 +1,115 @@
+{
+  "model_id": "Qwen/Qwen3-8B",
+  "corpus": "adversarial",
+  "seed": 42,
+  "position": "last_prompt",
+  "target": "logit_diff",
+  "n_heads": 32,
+  "head_dim": 128,
+  "n_layers": 36,
+  "run_dir": "/workspace/results/m81_qwen_corpus_robustness/adversarial_headDLA",
+  "n_pairs": 32,
+  "top_20_routing_heads": [
+    {
+      "layer": 22,
+      "head": 7,
+      "abs_delta": 0.1591
+    },
+    {
+      "layer": 22,
+      "head": 6,
+      "abs_delta": 0.1524
+    },
+    {
+      "layer": 23,
+      "head": 2,
+      "abs_delta": 0.1398
+    },
+    {
+      "layer": 22,
+      "head": 16,
+      "abs_delta": 0.0741
+    },
+    {
+      "layer": 20,
+      "head": 14,
+      "abs_delta": 0.0702
+    },
+    {
+      "layer": 23,
+      "head": 1,
+      "abs_delta": 0.0635
+    },
+    {
+      "layer": 20,
+      "head": 10,
+      "abs_delta": 0.0619
+    },
+    {
+      "layer": 21,
+      "head": 23,
+      "abs_delta": 0.0462
+    },
+    {
+      "layer": 21,
+      "head": 15,
+      "abs_delta": 0.0419
+    },
+    {
+      "layer": 23,
+      "head": 30,
+      "abs_delta": 0.0411
+    },
+    {
+      "layer": 23,
+      "head": 5,
+      "abs_delta": 0.0371
+    },
+    {
+      "layer": 20,
+      "head": 1,
+      "abs_delta": 0.0365
+    },
+    {
+      "layer": 22,
+      "head": 14,
+      "abs_delta": 0.0364
+    },
+    {
+      "layer": 20,
+      "head": 9,
+      "abs_delta": 0.0363
+    },
+    {
+      "layer": 21,
+      "head": 25,
+      "abs_delta": 0.0356
+    },
+    {
+      "layer": 16,
+      "head": 28,
+      "abs_delta": 0.0353
+    },
+    {
+      "layer": 18,
+      "head": 30,
+      "abs_delta": 0.0347
+    },
+    {
+      "layer": 22,
+      "head": 17,
+      "abs_delta": 0.0345
+    },
+    {
+      "layer": 18,
+      "head": 11,
+      "abs_delta": 0.0341
+    },
+    {
+      "layer": 19,
+      "head": 30,
+      "abs_delta": 0.0336
+    }
+  ],
+  "ablation": null
+}

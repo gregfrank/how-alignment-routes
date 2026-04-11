@@ -1,0 +1,53 @@
+{
+  "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+  "corpus": "safety_v3",
+  "mode": "interchange",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 23,
+      "head": 48
+    },
+    {
+      "layer": 33,
+      "head": 15
+    },
+    {
+      "layer": 32,
+      "head": 52
+    },
+    {
+      "layer": 26,
+      "head": 39
+    },
+    {
+      "layer": 26,
+      "head": 40
+    },
+    {
+      "layer": 33,
+      "head": 10
+    },
+    {
+      "layer": 35,
+      "head": 2
+    },
+    {
+      "layer": 35,
+      "head": 5
+    },
+    {
+      "layer": 26,
+      "head": 27
+    },
+    {
+      "layer": 37,
+      "head": 46
+    }
+  ],
+  "direction_checkpoint": "/workspace/results/llama33_70b/direction.pt",
+  "direction_layer": null,
+  "alpha": null,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/llama33_70b/interchange_cc"
+}

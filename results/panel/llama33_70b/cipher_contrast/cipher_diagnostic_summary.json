@@ -1,0 +1,49 @@
+{
+  "model": "meta-llama/Llama-3.3-70B-Instruct",
+  "corpus": "safety_v3",
+  "n_pairs": 120,
+  "total_heads": 5120,
+  "top_10": [
+    {
+      "head": "L23.H48",
+      "sensitivity": 0.1729289867915213
+    },
+    {
+      "head": "L33.H15",
+      "sensitivity": 0.16174378347350285
+    },
+    {
+      "head": "L32.H52",
+      "sensitivity": 0.14934606931637973
+    },
+    {
+      "head": "L26.H39",
+      "sensitivity": 0.1476932085798277
+    },
+    {
+      "head": "L26.H40",
+      "sensitivity": 0.12792240040532002
+    },
+    {
+      "head": "L33.H10",
+      "sensitivity": 0.12434569388472785
+    },
+    {
+      "head": "L35.H2",
+      "sensitivity": 0.09398434343747794
+    },
+    {
+      "head": "L35.H5",
+      "sensitivity": 0.08869728083179022
+    },
+    {
+      "head": "L26.H27",
+      "sensitivity": 0.08504021047944359
+    },
+    {
+      "head": "L37.H46",
+      "sensitivity": 0.08415404676149288
+    }
+  ],
+  "timestamp": "22:28:16"
+}

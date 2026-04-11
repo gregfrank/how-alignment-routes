@@ -1,0 +1,53 @@
+{
+  "model_id": "Qwen/Qwen3-32B",
+  "corpus": "v2",
+  "mode": "interchange",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 56,
+      "head": 3
+    },
+    {
+      "layer": 56,
+      "head": 0
+    },
+    {
+      "layer": 63,
+      "head": 23
+    },
+    {
+      "layer": 60,
+      "head": 5
+    },
+    {
+      "layer": 62,
+      "head": 34
+    },
+    {
+      "layer": 59,
+      "head": 15
+    },
+    {
+      "layer": 60,
+      "head": 45
+    },
+    {
+      "layer": 62,
+      "head": 39
+    },
+    {
+      "layer": 62,
+      "head": 59
+    },
+    {
+      "layer": 62,
+      "head": 37
+    }
+  ],
+  "direction_checkpoint": "/workspace/results/m84_qwen3_32b/direction.pt",
+  "direction_layer": null,
+  "alpha": null,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/m84_qwen3_32b/interchange"
+}

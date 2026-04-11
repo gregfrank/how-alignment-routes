@@ -1,0 +1,35 @@
+{
+  "experiment": "knockout_cascade_n120",
+  "model": "google/gemma-2-2b-it",
+  "corpus": "safety_v3",
+  "n_pairs": 120,
+  "gate_head": {
+    "layer": 13,
+    "head": 2
+  },
+  "amplifier_heads": [
+    {
+      "layer": 16,
+      "head": 1
+    },
+    {
+      "layer": 15,
+      "head": 2
+    },
+    {
+      "layer": 12,
+      "head": 3
+    },
+    {
+      "layer": 8,
+      "head": 3
+    },
+    {
+      "layer": 15,
+      "head": 7
+    }
+  ],
+  "method": "zero_head_o_proj_pre_hook",
+  "dla_target": "logit_diff",
+  "timestamp": "2026-04-05T18:25:34"
+}

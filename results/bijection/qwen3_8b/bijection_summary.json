@@ -1,0 +1,14 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "corpus": "political",
+  "checkpoint": "/workspace/qwen_checkpoint.pt",
+  "n_harmful": 120,
+  "n_benign": 120,
+  "peak_detection_layer": 35,
+  "plain_harmful_at_peak": 142.27,
+  "cipher_harmful_at_peak": 48.5,
+  "benign_at_peak": 110.49,
+  "cipher_below_benign": true,
+  "bypass_magnitude": 61.99,
+  "timestamp": "2026-04-05T01:01:10"
+}

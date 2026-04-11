@@ -1,0 +1,93 @@
+{
+  "model_id": "Qwen/Qwen3-32B",
+  "corpus": "v2",
+  "mode": "ablate",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 60,
+      "head": 5
+    },
+    {
+      "layer": 60,
+      "head": 2
+    },
+    {
+      "layer": 62,
+      "head": 35
+    },
+    {
+      "layer": 62,
+      "head": 39
+    },
+    {
+      "layer": 56,
+      "head": 3
+    },
+    {
+      "layer": 56,
+      "head": 0
+    },
+    {
+      "layer": 62,
+      "head": 37
+    },
+    {
+      "layer": 63,
+      "head": 23
+    },
+    {
+      "layer": 61,
+      "head": 9
+    },
+    {
+      "layer": 59,
+      "head": 31
+    },
+    {
+      "layer": 59,
+      "head": 25
+    },
+    {
+      "layer": 61,
+      "head": 12
+    },
+    {
+      "layer": 59,
+      "head": 15
+    },
+    {
+      "layer": 60,
+      "head": 45
+    },
+    {
+      "layer": 63,
+      "head": 19
+    },
+    {
+      "layer": 62,
+      "head": 34
+    },
+    {
+      "layer": 63,
+      "head": 20
+    },
+    {
+      "layer": 60,
+      "head": 49
+    },
+    {
+      "layer": 62,
+      "head": 59
+    },
+    {
+      "layer": 57,
+      "head": 12
+    }
+  ],
+  "direction_checkpoint": "/workspace/results/m84_qwen3_32b/direction.pt",
+  "direction_layer": null,
+  "alpha": 5.0,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/m84_qwen3_32b/headablate"
+}

@@ -1,0 +1,12 @@
+{
+  "model": "google/gemma-2-2b-it",
+  "n_prompts": 30,
+  "gate_head": "L13.H2",
+  "gate_band_size": 2,
+  "total_ablated_heads": 10,
+  "baseline_refusal_rate": 1.0,
+  "single_ablate_refusal_rate": 1.0,
+  "band_ablate_refusal_rate": 1.0,
+  "all_bands_refusal_rate": 0.9666666666666667,
+  "timestamp": "11:35:50"
+}

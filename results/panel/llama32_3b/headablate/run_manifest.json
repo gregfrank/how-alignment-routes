@@ -1,0 +1,93 @@
+{
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "corpus": "safety_v3",
+  "mode": "ablate",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 27,
+      "head": 2
+    },
+    {
+      "layer": 23,
+      "head": 17
+    },
+    {
+      "layer": 26,
+      "head": 13
+    },
+    {
+      "layer": 26,
+      "head": 20
+    },
+    {
+      "layer": 27,
+      "head": 18
+    },
+    {
+      "layer": 27,
+      "head": 1
+    },
+    {
+      "layer": 20,
+      "head": 9
+    },
+    {
+      "layer": 27,
+      "head": 19
+    },
+    {
+      "layer": 26,
+      "head": 18
+    },
+    {
+      "layer": 22,
+      "head": 10
+    },
+    {
+      "layer": 24,
+      "head": 6
+    },
+    {
+      "layer": 24,
+      "head": 4
+    },
+    {
+      "layer": 23,
+      "head": 15
+    },
+    {
+      "layer": 21,
+      "head": 12
+    },
+    {
+      "layer": 22,
+      "head": 3
+    },
+    {
+      "layer": 26,
+      "head": 1
+    },
+    {
+      "layer": 23,
+      "head": 23
+    },
+    {
+      "layer": 27,
+      "head": 16
+    },
+    {
+      "layer": 24,
+      "head": 3
+    },
+    {
+      "layer": 26,
+      "head": 0
+    }
+  ],
+  "direction_checkpoint": "/workspace/results/m85_llama32_3b/direction.pt",
+  "direction_layer": null,
+  "alpha": 5.0,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/m85_llama32_3b/headablate"
+}

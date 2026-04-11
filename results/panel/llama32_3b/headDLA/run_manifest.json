@@ -1,0 +1,115 @@
+{
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "corpus": "safety_v3",
+  "seed": 42,
+  "position": "last_prompt",
+  "target": "logit_diff",
+  "n_heads": 24,
+  "head_dim": 128,
+  "n_layers": 28,
+  "run_dir": "/workspace/results/m85_llama32_3b/headDLA",
+  "n_pairs": 120,
+  "top_20_routing_heads": [
+    {
+      "layer": 15,
+      "head": 16,
+      "abs_delta": 0.0603
+    },
+    {
+      "layer": 15,
+      "head": 15,
+      "abs_delta": 0.0585
+    },
+    {
+      "layer": 15,
+      "head": 22,
+      "abs_delta": 0.0386
+    },
+    {
+      "layer": 14,
+      "head": 5,
+      "abs_delta": 0.0307
+    },
+    {
+      "layer": 17,
+      "head": 8,
+      "abs_delta": 0.0262
+    },
+    {
+      "layer": 12,
+      "head": 21,
+      "abs_delta": 0.0241
+    },
+    {
+      "layer": 18,
+      "head": 7,
+      "abs_delta": 0.0237
+    },
+    {
+      "layer": 15,
+      "head": 23,
+      "abs_delta": 0.0213
+    },
+    {
+      "layer": 12,
+      "head": 22,
+      "abs_delta": 0.0207
+    },
+    {
+      "layer": 12,
+      "head": 23,
+      "abs_delta": 0.0203
+    },
+    {
+      "layer": 17,
+      "head": 15,
+      "abs_delta": 0.0175
+    },
+    {
+      "layer": 11,
+      "head": 5,
+      "abs_delta": 0.0175
+    },
+    {
+      "layer": 11,
+      "head": 17,
+      "abs_delta": 0.0174
+    },
+    {
+      "layer": 14,
+      "head": 3,
+      "abs_delta": 0.0168
+    },
+    {
+      "layer": 14,
+      "head": 4,
+      "abs_delta": 0.0156
+    },
+    {
+      "layer": 11,
+      "head": 16,
+      "abs_delta": 0.0144
+    },
+    {
+      "layer": 18,
+      "head": 22,
+      "abs_delta": 0.0143
+    },
+    {
+      "layer": 13,
+      "head": 9,
+      "abs_delta": 0.0142
+    },
+    {
+      "layer": 11,
+      "head": 20,
+      "abs_delta": 0.0138
+    },
+    {
+      "layer": 12,
+      "head": 1,
+      "abs_delta": 0.0132
+    }
+  ],
+  "ablation": null
+}

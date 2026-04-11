@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "n_pairs": 16,
+  "gate_layer": 18,
+  "sensitive_topics": [
+    "Hong Kong",
+    "Tiananmen",
+    "Tibet",
+    "Xi/CCP",
+    "Xinjiang"
+  ],
+  "mean_sensitive_en": 7.68,
+  "mean_sensitive_cn": 7.83,
+  "mean_benign_en": 5.86,
+  "mean_benign_cn": 5.65,
+  "timestamp": "2026-04-04T21:35:22"
+}

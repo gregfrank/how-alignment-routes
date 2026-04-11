@@ -1,0 +1,9 @@
+{
+  "llama_model": "meta-llama/llama-3.1-8b-instruct",
+  "n_outputs": 2400,
+  "old_unanimous": 1364,
+  "new_unanimous": 1823,
+  "old_disagree": 169,
+  "new_disagree": 66,
+  "vote_changed": 287
+}

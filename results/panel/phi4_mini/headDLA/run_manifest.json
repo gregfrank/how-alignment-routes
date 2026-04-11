@@ -1,0 +1,115 @@
+{
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "corpus": "safety_v3",
+  "seed": 42,
+  "position": "last_prompt",
+  "target": "logit_diff",
+  "n_heads": 24,
+  "head_dim": 128,
+  "n_layers": 32,
+  "run_dir": "/workspace/results/m85_phi4_mini/headDLA",
+  "n_pairs": 120,
+  "top_20_routing_heads": [
+    {
+      "layer": 16,
+      "head": 13,
+      "abs_delta": 1.3429
+    },
+    {
+      "layer": 16,
+      "head": 12,
+      "abs_delta": 1.2914
+    },
+    {
+      "layer": 13,
+      "head": 7,
+      "abs_delta": 1.2727
+    },
+    {
+      "layer": 20,
+      "head": 14,
+      "abs_delta": 0.9992
+    },
+    {
+      "layer": 15,
+      "head": 5,
+      "abs_delta": 0.6921
+    },
+    {
+      "layer": 20,
+      "head": 22,
+      "abs_delta": 0.6128
+    },
+    {
+      "layer": 17,
+      "head": 12,
+      "abs_delta": 0.5921
+    },
+    {
+      "layer": 16,
+      "head": 17,
+      "abs_delta": 0.4722
+    },
+    {
+      "layer": 16,
+      "head": 1,
+      "abs_delta": 0.4529
+    },
+    {
+      "layer": 17,
+      "head": 16,
+      "abs_delta": 0.4515
+    },
+    {
+      "layer": 14,
+      "head": 22,
+      "abs_delta": 0.4323
+    },
+    {
+      "layer": 14,
+      "head": 5,
+      "abs_delta": 0.4306
+    },
+    {
+      "layer": 14,
+      "head": 2,
+      "abs_delta": 0.422
+    },
+    {
+      "layer": 16,
+      "head": 11,
+      "abs_delta": 0.4112
+    },
+    {
+      "layer": 15,
+      "head": 1,
+      "abs_delta": 0.4061
+    },
+    {
+      "layer": 16,
+      "head": 2,
+      "abs_delta": 0.4041
+    },
+    {
+      "layer": 20,
+      "head": 4,
+      "abs_delta": 0.3893
+    },
+    {
+      "layer": 18,
+      "head": 19,
+      "abs_delta": 0.3815
+    },
+    {
+      "layer": 16,
+      "head": 5,
+      "abs_delta": 0.3807
+    },
+    {
+      "layer": 16,
+      "head": 10,
+      "abs_delta": 0.3469
+    }
+  ],
+  "ablation": null
+}

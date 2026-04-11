@@ -1,0 +1,93 @@
+{
+  "model_id": "microsoft/phi-4",
+  "corpus": "safety_v3",
+  "mode": "ablate",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 38,
+      "head": 22
+    },
+    {
+      "layer": 33,
+      "head": 32
+    },
+    {
+      "layer": 28,
+      "head": 35
+    },
+    {
+      "layer": 39,
+      "head": 22
+    },
+    {
+      "layer": 34,
+      "head": 33
+    },
+    {
+      "layer": 29,
+      "head": 34
+    },
+    {
+      "layer": 38,
+      "head": 25
+    },
+    {
+      "layer": 38,
+      "head": 20
+    },
+    {
+      "layer": 32,
+      "head": 3
+    },
+    {
+      "layer": 36,
+      "head": 33
+    },
+    {
+      "layer": 29,
+      "head": 22
+    },
+    {
+      "layer": 30,
+      "head": 1
+    },
+    {
+      "layer": 28,
+      "head": 33
+    },
+    {
+      "layer": 37,
+      "head": 5
+    },
+    {
+      "layer": 37,
+      "head": 32
+    },
+    {
+      "layer": 27,
+      "head": 11
+    },
+    {
+      "layer": 38,
+      "head": 21
+    },
+    {
+      "layer": 24,
+      "head": 15
+    },
+    {
+      "layer": 37,
+      "head": 37
+    },
+    {
+      "layer": 38,
+      "head": 27
+    }
+  ],
+  "direction_checkpoint": "/workspace/results/m86_phi4_14b/direction.pt",
+  "direction_layer": null,
+  "alpha": 5.0,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/m86_phi4_14b/headablate"
+}

@@ -1,0 +1,67 @@
+{
+  "model": "microsoft/Phi-4-mini-instruct",
+  "corpus": "safety_v3",
+  "n_pairs": 120,
+  "bands": [
+    {
+      "band": 0,
+      "layers": [
+        16
+      ],
+      "n_heads": 12,
+      "heads": [
+        "L16.H9",
+        "L16.H12",
+        "L16.H13",
+        "L16.H10",
+        "L16.H11",
+        "L16.H17",
+        "L16.H3",
+        "L16.H0",
+        "L16.H14",
+        "L16.H18",
+        "L16.H1",
+        "L16.H15"
+      ],
+      "mean_abs_necessity": 0.7135084677766523,
+      "mean_abs_sufficiency": 0.4001814297863651
+    },
+    {
+      "band": 1,
+      "layers": [
+        13
+      ],
+      "n_heads": 6,
+      "heads": [
+        "L13.H7",
+        "L13.H16",
+        "L13.H4",
+        "L13.H0",
+        "L13.H13",
+        "L13.H12"
+      ],
+      "mean_abs_necessity": 2.1162857500112295,
+      "mean_abs_sufficiency": 3.3597673910456556
+    },
+    {
+      "band": 2,
+      "layers": [
+        14
+      ],
+      "n_heads": 8,
+      "heads": [
+        "L14.H16",
+        "L14.H8",
+        "L14.H10",
+        "L14.H4",
+        "L14.H22",
+        "L14.H13",
+        "L14.H9",
+        "L14.H7"
+      ],
+      "mean_abs_necessity": 0.7178624953516798,
+      "mean_abs_sufficiency": 0.6084468806419561
+    }
+  ],
+  "timestamp": "12:14:50"
+}

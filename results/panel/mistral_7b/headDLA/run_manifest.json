@@ -1,0 +1,115 @@
+{
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "corpus": "safety_v3",
+  "seed": 42,
+  "position": "last_prompt",
+  "target": "logit_diff",
+  "n_heads": 32,
+  "head_dim": 128,
+  "n_layers": 32,
+  "run_dir": "/workspace/results/m85_mistral_7b/headDLA",
+  "n_pairs": 120,
+  "top_20_routing_heads": [
+    {
+      "layer": 19,
+      "head": 3,
+      "abs_delta": 0.0036
+    },
+    {
+      "layer": 20,
+      "head": 26,
+      "abs_delta": 0.0032
+    },
+    {
+      "layer": 20,
+      "head": 14,
+      "abs_delta": 0.0031
+    },
+    {
+      "layer": 20,
+      "head": 13,
+      "abs_delta": 0.0029
+    },
+    {
+      "layer": 20,
+      "head": 2,
+      "abs_delta": 0.0027
+    },
+    {
+      "layer": 18,
+      "head": 18,
+      "abs_delta": 0.0023
+    },
+    {
+      "layer": 19,
+      "head": 10,
+      "abs_delta": 0.0017
+    },
+    {
+      "layer": 19,
+      "head": 2,
+      "abs_delta": 0.0017
+    },
+    {
+      "layer": 14,
+      "head": 22,
+      "abs_delta": 0.0016
+    },
+    {
+      "layer": 14,
+      "head": 21,
+      "abs_delta": 0.0015
+    },
+    {
+      "layer": 15,
+      "head": 30,
+      "abs_delta": 0.0014
+    },
+    {
+      "layer": 18,
+      "head": 5,
+      "abs_delta": 0.0013
+    },
+    {
+      "layer": 17,
+      "head": 20,
+      "abs_delta": 0.0011
+    },
+    {
+      "layer": 14,
+      "head": 26,
+      "abs_delta": 0.0011
+    },
+    {
+      "layer": 15,
+      "head": 31,
+      "abs_delta": 0.0011
+    },
+    {
+      "layer": 15,
+      "head": 15,
+      "abs_delta": 0.001
+    },
+    {
+      "layer": 20,
+      "head": 17,
+      "abs_delta": 0.001
+    },
+    {
+      "layer": 20,
+      "head": 25,
+      "abs_delta": 0.001
+    },
+    {
+      "layer": 13,
+      "head": 11,
+      "abs_delta": 0.001
+    },
+    {
+      "layer": 15,
+      "head": 29,
+      "abs_delta": 0.001
+    }
+  ],
+  "ablation": null
+}

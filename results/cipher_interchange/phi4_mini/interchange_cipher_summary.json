@@ -1,0 +1,30 @@
+{
+  "model": "microsoft/Phi-4-mini-instruct",
+  "gate": "L13.H7",
+  "corpus": "safety_v3",
+  "n_pairs": 120,
+  "checkpoint": "runs/m85_phi4_mini/direction.pt",
+  "plaintext": {
+    "mean_necessity": 1.1160342337110098,
+    "std_necessity": 0.7759884823952145,
+    "mean_sufficiency": 2.131311556656389,
+    "std_sufficiency": 1.512135431763626,
+    "mean_baseline_harm_dla": 7.687256796683747,
+    "necessity_pct": 14.517977781000665,
+    "sufficiency_pct": 27.72525509458496
+  },
+  "cipher": {
+    "mean_necessity": -0.010581971759650817,
+    "std_necessity": 0.01321077762861546,
+    "mean_sufficiency": -0.26938709744499645,
+    "std_sufficiency": 0.35857577549567055,
+    "mean_baseline_harm_dla": -3.72664708816604,
+    "necessity_pct": 0.28395422236932083,
+    "sufficiency_pct": -7.228672076313172
+  },
+  "collapse": {
+    "necessity_drop_pct": 100.94817626915116,
+    "sufficiency_drop_pct": 112.63949874450134
+  },
+  "timestamp": "21:15:13"
+}

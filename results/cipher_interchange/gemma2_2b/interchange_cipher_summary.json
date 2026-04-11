@@ -1,0 +1,30 @@
+{
+  "model": "google/gemma-2-2b-it",
+  "gate": "L13.H2",
+  "corpus": "safety_v3",
+  "n_pairs": 120,
+  "checkpoint": "runs/m87_gemma2_2b/direction.pt",
+  "plaintext": {
+    "mean_necessity": 0.19450179680037158,
+    "std_necessity": 0.1303244482267827,
+    "mean_sufficiency": 0.3903716805735409,
+    "std_sufficiency": 0.21776282758774926,
+    "mean_baseline_harm_dla": 6.163718025394579,
+    "necessity_pct": 3.15559206308631,
+    "sufficiency_pct": 6.333379933429882
+  },
+  "cipher": {
+    "mean_necessity": -3.04705982368129e-05,
+    "std_necessity": 0.0019700005992910248,
+    "mean_sufficiency": -0.025037291060046603,
+    "std_sufficiency": 0.07479854635337704,
+    "mean_baseline_harm_dla": 2.284774290914841,
+    "necessity_pct": -0.0013336371280951449,
+    "sufficiency_pct": -1.0958321423522968
+  },
+  "collapse": {
+    "necessity_drop_pct": 100.01566597262239,
+    "sufficiency_drop_pct": 106.41370578502554
+  },
+  "timestamp": "19:23:03"
+}

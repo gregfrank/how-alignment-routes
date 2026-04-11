@@ -1,0 +1,39 @@
+{
+  "experiment": "knockout_cascade_n120",
+  "model": "Qwen/Qwen3-8B",
+  "corpus": "v2",
+  "n_pairs": 120,
+  "gate_head": {
+    "layer": 17,
+    "head": 17
+  },
+  "amplifier_heads": [
+    {
+      "layer": 22,
+      "head": 7
+    },
+    {
+      "layer": 23,
+      "head": 3
+    },
+    {
+      "layer": 22,
+      "head": 4
+    },
+    {
+      "layer": 22,
+      "head": 5
+    },
+    {
+      "layer": 22,
+      "head": 6
+    },
+    {
+      "layer": 23,
+      "head": 2
+    }
+  ],
+  "method": "zero_head_o_proj_pre_hook",
+  "dla_target": "logit_diff",
+  "timestamp": "2026-04-04T19:50:45"
+}

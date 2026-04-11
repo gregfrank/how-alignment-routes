@@ -1,0 +1,53 @@
+{
+  "model_id": "Qwen/Qwen2.5-72B-Instruct",
+  "corpus": "safety_v3",
+  "mode": "ablate",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 59,
+      "head": 25
+    },
+    {
+      "layer": 55,
+      "head": 19
+    },
+    {
+      "layer": 78,
+      "head": 0
+    },
+    {
+      "layer": 78,
+      "head": 3
+    },
+    {
+      "layer": 78,
+      "head": 4
+    },
+    {
+      "layer": 60,
+      "head": 5
+    },
+    {
+      "layer": 58,
+      "head": 51
+    },
+    {
+      "layer": 78,
+      "head": 2
+    },
+    {
+      "layer": 76,
+      "head": 1
+    },
+    {
+      "layer": 53,
+      "head": 16
+    }
+  ],
+  "direction_checkpoint": "runs/qwen25_72b/direction.pt",
+  "direction_layer": null,
+  "alpha": 5.0,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/qwen25_72b/headablate_cc"
+}

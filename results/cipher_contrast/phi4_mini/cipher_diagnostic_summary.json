@@ -1,0 +1,49 @@
+{
+  "model": "microsoft/Phi-4-mini-instruct",
+  "corpus": "safety_v3",
+  "n_pairs": 120,
+  "total_heads": 768,
+  "top_10": [
+    {
+      "head": "L16.H9",
+      "sensitivity": 3.3191113069653513
+    },
+    {
+      "head": "L16.H12",
+      "sensitivity": 2.1572738598411285
+    },
+    {
+      "head": "L16.H13",
+      "sensitivity": 1.8335558663432796
+    },
+    {
+      "head": "L13.H7",
+      "sensitivity": 1.729436220228672
+    },
+    {
+      "head": "L16.H10",
+      "sensitivity": 1.6055971121105055
+    },
+    {
+      "head": "L23.H9",
+      "sensitivity": 0.8442185329273343
+    },
+    {
+      "head": "L13.H16",
+      "sensitivity": 0.7524499852210284
+    },
+    {
+      "head": "L27.H20",
+      "sensitivity": 0.7080297600167493
+    },
+    {
+      "head": "L14.H16",
+      "sensitivity": 0.6718614813250801
+    },
+    {
+      "head": "L14.H8",
+      "sensitivity": 0.6615710728568955
+    }
+  ],
+  "timestamp": "00:52:45"
+}

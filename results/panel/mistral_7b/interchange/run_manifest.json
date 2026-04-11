@@ -1,0 +1,53 @@
+{
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "corpus": "safety_v3",
+  "mode": "interchange",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 31,
+      "head": 25
+    },
+    {
+      "layer": 25,
+      "head": 4
+    },
+    {
+      "layer": 31,
+      "head": 27
+    },
+    {
+      "layer": 30,
+      "head": 16
+    },
+    {
+      "layer": 31,
+      "head": 14
+    },
+    {
+      "layer": 31,
+      "head": 22
+    },
+    {
+      "layer": 31,
+      "head": 17
+    },
+    {
+      "layer": 29,
+      "head": 17
+    },
+    {
+      "layer": 29,
+      "head": 12
+    },
+    {
+      "layer": 28,
+      "head": 12
+    }
+  ],
+  "direction_checkpoint": "/workspace/results/m85_mistral_7b/direction.pt",
+  "direction_layer": null,
+  "alpha": null,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/m85_mistral_7b/interchange"
+}

@@ -1,0 +1,115 @@
+{
+  "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+  "corpus": "safety_v3",
+  "seed": 42,
+  "position": "last_prompt",
+  "target": "logit_diff",
+  "n_heads": 64,
+  "head_dim": 128,
+  "n_layers": 80,
+  "run_dir": "/workspace/results/llama33_70b/headDLA",
+  "n_pairs": 120,
+  "top_20_routing_heads": [
+    {
+      "layer": 50,
+      "head": 36,
+      "abs_delta": 0.1068
+    },
+    {
+      "layer": 52,
+      "head": 53,
+      "abs_delta": 0.0373
+    },
+    {
+      "layer": 33,
+      "head": 15,
+      "abs_delta": 0.0224
+    },
+    {
+      "layer": 35,
+      "head": 2,
+      "abs_delta": 0.0148
+    },
+    {
+      "layer": 50,
+      "head": 37,
+      "abs_delta": 0.0115
+    },
+    {
+      "layer": 52,
+      "head": 19,
+      "abs_delta": 0.0115
+    },
+    {
+      "layer": 41,
+      "head": 57,
+      "abs_delta": 0.0111
+    },
+    {
+      "layer": 52,
+      "head": 23,
+      "abs_delta": 0.009
+    },
+    {
+      "layer": 42,
+      "head": 27,
+      "abs_delta": 0.009
+    },
+    {
+      "layer": 41,
+      "head": 56,
+      "abs_delta": 0.009
+    },
+    {
+      "layer": 26,
+      "head": 33,
+      "abs_delta": 0.0084
+    },
+    {
+      "layer": 26,
+      "head": 39,
+      "abs_delta": 0.0084
+    },
+    {
+      "layer": 33,
+      "head": 10,
+      "abs_delta": 0.0079
+    },
+    {
+      "layer": 33,
+      "head": 9,
+      "abs_delta": 0.0077
+    },
+    {
+      "layer": 33,
+      "head": 13,
+      "abs_delta": 0.0074
+    },
+    {
+      "layer": 37,
+      "head": 46,
+      "abs_delta": 0.0073
+    },
+    {
+      "layer": 37,
+      "head": 24,
+      "abs_delta": 0.0068
+    },
+    {
+      "layer": 35,
+      "head": 0,
+      "abs_delta": 0.0067
+    },
+    {
+      "layer": 38,
+      "head": 59,
+      "abs_delta": 0.0065
+    },
+    {
+      "layer": 42,
+      "head": 26,
+      "abs_delta": 0.0064
+    }
+  ],
+  "ablation": null
+}

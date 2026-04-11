@@ -1,0 +1,93 @@
+{
+  "model_id": "THUDM/glm-z1-9b-0414",
+  "corpus": "safety_v3",
+  "mode": "ablate",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 19,
+      "head": 28
+    },
+    {
+      "layer": 19,
+      "head": 18
+    },
+    {
+      "layer": 18,
+      "head": 4
+    },
+    {
+      "layer": 19,
+      "head": 23
+    },
+    {
+      "layer": 34,
+      "head": 1
+    },
+    {
+      "layer": 26,
+      "head": 11
+    },
+    {
+      "layer": 22,
+      "head": 31
+    },
+    {
+      "layer": 20,
+      "head": 16
+    },
+    {
+      "layer": 22,
+      "head": 5
+    },
+    {
+      "layer": 38,
+      "head": 0
+    },
+    {
+      "layer": 21,
+      "head": 8
+    },
+    {
+      "layer": 18,
+      "head": 2
+    },
+    {
+      "layer": 39,
+      "head": 28
+    },
+    {
+      "layer": 20,
+      "head": 24
+    },
+    {
+      "layer": 22,
+      "head": 12
+    },
+    {
+      "layer": 34,
+      "head": 26
+    },
+    {
+      "layer": 16,
+      "head": 23
+    },
+    {
+      "layer": 20,
+      "head": 22
+    },
+    {
+      "layer": 37,
+      "head": 26
+    },
+    {
+      "layer": 17,
+      "head": 7
+    }
+  ],
+  "direction_checkpoint": "/workspace/results/m85_glmz1_9b/direction.pt",
+  "direction_layer": null,
+  "alpha": 5.0,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/m85_glmz1_9b/headablate"
+}

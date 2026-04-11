@@ -1,0 +1,5 @@
+layer,head,role,mean_plain,mean_cipher,mean_benign,plain_minus_benign,cipher_minus_benign
+17,17,gate,-0.0414,-0.1319,-0.057,0.0156,-0.0749
+22,7,amp,0.1747,-0.0863,0.0067,0.168,-0.093
+23,3,amp,-0.085,-0.0349,-0.1298,0.0448,0.0949
+22,5,amp,-0.051,-0.1401,-0.0732,0.0222,-0.0669

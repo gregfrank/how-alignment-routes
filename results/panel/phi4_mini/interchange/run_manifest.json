@@ -1,0 +1,53 @@
+{
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "corpus": "safety_v3",
+  "mode": "interchange",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 13,
+      "head": 7
+    },
+    {
+      "layer": 16,
+      "head": 13
+    },
+    {
+      "layer": 29,
+      "head": 18
+    },
+    {
+      "layer": 27,
+      "head": 19
+    },
+    {
+      "layer": 26,
+      "head": 9
+    },
+    {
+      "layer": 29,
+      "head": 0
+    },
+    {
+      "layer": 28,
+      "head": 19
+    },
+    {
+      "layer": 21,
+      "head": 15
+    },
+    {
+      "layer": 28,
+      "head": 17
+    },
+    {
+      "layer": 26,
+      "head": 11
+    }
+  ],
+  "direction_checkpoint": "/workspace/results/m85_phi4_mini/direction.pt",
+  "direction_layer": null,
+  "alpha": null,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/m85_phi4_mini/interchange"
+}

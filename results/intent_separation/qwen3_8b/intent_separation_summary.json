@@ -1,0 +1,8 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "corpus": "political",
+  "gate": "L17.H17",
+  "gate_plain_dla": -0.0414,
+  "gate_cipher_dla": -0.1319,
+  "gate_benign_dla": -0.057,
+  "gate_routing_collapsed": 

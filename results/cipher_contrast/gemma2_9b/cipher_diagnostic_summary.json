@@ -1,0 +1,49 @@
+{
+  "model": "google/gemma-2-9b-it",
+  "corpus": "safety_v3",
+  "n_pairs": 120,
+  "total_heads": 672,
+  "top_10": [
+    {
+      "head": "L22.H7",
+      "sensitivity": 1.6219553479303914
+    },
+    {
+      "head": "L26.H8",
+      "sensitivity": 1.134710439418753
+    },
+    {
+      "head": "L22.H6",
+      "sensitivity": 0.7255074946209787
+    },
+    {
+      "head": "L15.H9",
+      "sensitivity": 0.7144419071885446
+    },
+    {
+      "head": "L14.H12",
+      "sensitivity": 0.705607458918045
+    },
+    {
+      "head": "L26.H9",
+      "sensitivity": 0.6698623755325873
+    },
+    {
+      "head": "L12.H2",
+      "sensitivity": 0.6678937173758943
+    },
+    {
+      "head": "L13.H0",
+      "sensitivity": 0.6620271684291461
+    },
+    {
+      "head": "L18.H5",
+      "sensitivity": 0.6597628760462007
+    },
+    {
+      "head": "L25.H8",
+      "sensitivity": 0.6564699310809374
+    }
+  ],
+  "timestamp": "10:27:44"
+}

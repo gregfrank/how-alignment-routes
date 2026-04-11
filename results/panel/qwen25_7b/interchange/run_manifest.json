@@ -1,0 +1,53 @@
+{
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "corpus": "safety_v3",
+  "mode": "interchange",
+  "seed": 42,
+  "candidate_heads": [
+    {
+      "layer": 25,
+      "head": 1
+    },
+    {
+      "layer": 26,
+      "head": 26
+    },
+    {
+      "layer": 23,
+      "head": 15
+    },
+    {
+      "layer": 24,
+      "head": 16
+    },
+    {
+      "layer": 27,
+      "head": 16
+    },
+    {
+      "layer": 22,
+      "head": 7
+    },
+    {
+      "layer": 21,
+      "head": 22
+    },
+    {
+      "layer": 20,
+      "head": 1
+    },
+    {
+      "layer": 19,
+      "head": 6
+    },
+    {
+      "layer": 18,
+      "head": 15
+    }
+  ],
+  "direction_checkpoint": "/workspace/results/qwen25_7b/direction.pt",
+  "direction_layer": null,
+  "alpha": null,
+  "n_pairs": 120,
+  "run_dir": "/workspace/results/qwen25_7b/interchange"
+}

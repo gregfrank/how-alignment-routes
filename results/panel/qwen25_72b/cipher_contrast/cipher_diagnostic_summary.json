@@ -1,0 +1,49 @@
+{
+  "model": "Qwen/Qwen2.5-72B-Instruct",
+  "corpus": "safety_v3",
+  "n_pairs": 120,
+  "total_heads": 5120,
+  "top_10": [
+    {
+      "head": "L59.H25",
+      "sensitivity": 4.617869612947106
+    },
+    {
+      "head": "L55.H19",
+      "sensitivity": 3.4657487974191703
+    },
+    {
+      "head": "L78.H0",
+      "sensitivity": 3.3863394433011615
+    },
+    {
+      "head": "L78.H3",
+      "sensitivity": 3.2682921089076746
+    },
+    {
+      "head": "L78.H4",
+      "sensitivity": 2.655477782928695
+    },
+    {
+      "head": "L60.H5",
+      "sensitivity": 2.5740529540460555
+    },
+    {
+      "head": "L58.H51",
+      "sensitivity": 2.5268678095191714
+    },
+    {
+      "head": "L78.H2",
+      "sensitivity": 1.9653546955746908
+    },
+    {
+      "head": "L76.H1",
+      "sensitivity": 1.9485272924105326
+    },
+    {
+      "head": "L53.H16",
+      "sensitivity": 1.761591509729624
+    }
+  ],
+  "timestamp": "20:06:08"
+}

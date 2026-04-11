@@ -1,0 +1,12 @@
+{
+  "model": "microsoft/Phi-4-mini-instruct",
+  "n_prompts": 30,
+  "gate_head": "L13.H7",
+  "gate_band_size": 6,
+  "total_ablated_heads": 26,
+  "baseline_refusal_rate": 1.0,
+  "single_ablate_refusal_rate": 1.0,
+  "band_ablate_refusal_rate": 0.9333333333333333,
+  "all_bands_refusal_rate": 0.6,
+  "timestamp": "10:17:47"
+}
